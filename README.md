@@ -6,8 +6,7 @@ A mono and mixed repo gathering wonders.
 
 一个持续共享共建的单一库，欢迎你的加入；
 
-<!-- what -->
-## 目录
+## 目录 <!-- what -->
 
 - `libs-or-dists` 非二进制且可归档的脚本或文档发布；
 	- `initsrc` 几个维护的发布版本；
@@ -15,8 +14,7 @@ A mono and mixed repo gathering wonders.
 			- 适用于 unix 环境下最基础的兼容版单文件辅助脚本；
 - `tech-and-play` 技术相关的文档和环境；
 
-<!-- how -->
-## 原则
+## 原则 <!-- how -->
 
 - 先提交，后整理：先实现功能、再优化完善；
 	- 先把想法落实为最直观的代码并提交；
@@ -41,11 +39,14 @@ how: 读取配置文件，然后根据配置进行相应的操作；
 
 ### 统一化配置
 
+- 配置此仓库
+	- `git remote set-url origin https://github.com/zhanbei/a.git`
+	- `git remote set-url --push origin git@github.com:zhanbei/a.git`
 - 配置启动辅助脚本
 - 配置 vs code 快捷键
-    - 配置 vim 快捷键
-        - `jj` or `jk` 退出编辑模式(转为命令模式)
-        - `J` 切换到上一个 tab 标签；
-        - `K` 切换到下一个 tab 标签；
+	- 配置 vim 快捷键
+		- `jj` or `jk` 退出编辑模式(转为命令模式)
+		- `J` 切换到上一个 tab 标签；
+		- `K` 切换到下一个 tab 标签；
 
 
