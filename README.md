@@ -6,7 +6,16 @@ A mono and mixed repo gathering wonders.
 
 一个持续共享共建的单一库，欢迎你的加入；
 
+<!-- what -->
+## 目录
 
+- `libs-or-dists` 非二进制且可归档的脚本或文档发布；
+	- `initsrc` 几个维护的发布版本；
+		- v.5 [`bashrc-for-all.sh`](./libs-or-dists/initsrc/bashrc-for-all.sh) 基础版的辅助命令；
+			- 适用于 unix 环境下最基础的兼容版单文件辅助脚本；
+- `tech-and-play` 技术相关的文档和环境；
+
+<!-- how -->
 ## 原则
 
 - 先提交，后整理：先实现功能、再优化完善；
@@ -17,14 +26,26 @@ A mono and mixed repo gathering wonders.
 		- 命令提示 + 快速配置脚本 + 快速使用脚本；
 
 ---
+
 ## 工作区
+
+## a-json-lang
+
+命令 `ajson`
+
+```yaml
+why: 在项目开发和运维的体验，增强命令行的功能并提高友好度；
+what: 针对当下目录进行工作：采取不同的模式；
+how: 读取配置文件，然后根据配置进行相应的操作；
+```
 
 ### 统一化配置
 
+- 配置启动辅助脚本
 - 配置 vs code 快捷键
-	- 配置 vim 快捷键
-		- `jj` or `jk` 退出编辑模式(转为命令模式)
-		- `J` 切换到上一个 tab 标签；
-		- `K` 切换到下一个 tab 标签；
+    - 配置 vim 快捷键
+        - `jj` or `jk` 退出编辑模式(转为命令模式)
+        - `J` 切换到上一个 tab 标签；
+        - `K` 切换到下一个 tab 标签；
 
 
