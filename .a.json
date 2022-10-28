@@ -1,0 +1,40 @@
+{
+	"meta": {
+		"name": "a.json",
+		"folder": ".o. or .v.",
+		"path": ".o./a.json or .v./a.json",
+		"version": "v0u1 on 2022-10-29",
+		"xyz": true
+	},
+	"or": {
+		"yaml": "易读，但不太好解析",
+		"json": "不可以加注释，比较繁琐不够灵活",
+		"toml": "很少用好像",
+		"xyz": true
+	},
+	"naming": {
+		".a.json": "o.5 暂时先用这个吧",
+		".ajson": "o.1 没有语法着色",
+		"xyz": true
+	},
+	"features": {
+		"o1": "支持工作流脚本(类似于 package.json#scripts)",
+		"o1desc": "npm run test build deploy",
+		"o1demo": "ajson test build deploy",
+		"xyz": true
+	},
+	"commands": {
+		"help": "显示帮助"
+	},
+	"scripts": {
+		"build": "构建项目中的应用",
+		"run": "运行项目中的应用",
+		"start": "启动项目环境",
+		"test": "测试项目中的应用",
+		"xyz": true
+	},
+	"why": {
+		"reason": "扩展命令行的能力和交互友好性",
+		"xyz": true
+	}
+}

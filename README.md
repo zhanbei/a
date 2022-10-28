@@ -37,12 +37,29 @@ what: 针对当下目录进行工作：采取不同的模式；
 how: 读取配置文件，然后根据配置进行相应的操作；
 ```
 
+
+## 字母
+
+```bash
+echo ABCDEFG HIJKLMN OPQRST UVWXYZ
+echo abcdefg hijklmn opqrst uvwxyz
+echo AHIM OT UVWXY ovwx
+echo .v. .o. .w. .x. .i. .T. .Y.
+echo .o. .v. .x. .-. .i. ._.
+```
+
 ### 统一化配置
 
 - 配置此仓库
 	- `git remote set-url origin https://github.com/zhanbei/a.git`
 	- `git remote set-url --push origin git@github.com:zhanbei/a.git`
 - 配置启动辅助脚本
+	- 在 Windows Git Bash 配置：
+		- 编辑文件 `vim ~/.bashrc` 添加下行：
+		- `source /d/a/libs-or-dists/initsrc/bashrc-for-all.sh`
+	- 在 Linux/MacOS 下配置：
+		- 编辑文件 `vim ~/.bashrc` 添加下行：
+		- `source ~/a/libs-or-dists/initsrc/bashrc-for-all.sh`
 - 配置 vs code 快捷键
 	- 配置 vim 快捷键
 		- `jj` or `jk` 退出编辑模式(转为命令模式)
